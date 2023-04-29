@@ -1,0 +1,32 @@
+.nav-link.active{
+  color:#1d4ed8 !important
+}
+body,html{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+
+}
+
+
+@media(max-width:770px){
+  .nav-link.active{
+    background-color:#1d4ed8 !important;
+    color: white !important;
+  }
+
+  .dark .nav-link.active{
+    background-color:#111827 !important;
+    color: white !important;
+  }
+
+}
+
